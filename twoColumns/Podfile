@@ -1,0 +1,13 @@
+source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '10.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'Try' do
+pod 'Alamofire', '~> 4.2.0'
+pod 'SwiftyJSON'
+pod 'RxSwift',    '~> 3.0'
+pod 'RxCocoa',    '~> 3.0'
+pod 'Kingfisher' , '~> 3.0'
+end
